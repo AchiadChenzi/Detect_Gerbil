@@ -72,7 +72,7 @@ def main():
     file_matrix = []
     # get_first_frame()
     # write_csv(first_line, name_video, flag='w')
-    write_csv(["Look", "Harvest"], "Gerbil num", flag='w')
+    write_csv(["Harvest", "Look"], "Gerbil num", flag='w')
     gerbil = [0, 0]
     # order the file from 1 to end
     for file_name in os.listdir(folder_path):
