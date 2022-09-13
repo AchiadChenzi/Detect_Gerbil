@@ -1,17 +1,14 @@
-from PIL import Image
-from numpy.core.defchararray import isdigit
-from pytesseract import pytesseract
-import numpy as np
-import math
+
 import os
-import cv2
+import sys
 import csv
-from pathlib import Path
 
 # global var:
-video_path = "D:/BIU/FinalProject/data/video/interesting videos/mp4/5.mp4"
-folder_path = 'D:/BIU/FinalProject/Anomalies/labels/'
-name_video = "1"
+# video_path = "D:/BIU/FinalProject/data/video/interesting videos/mp4/5.mp4"
+# folder_path = 'D:/BIU/FinalProject/Anomalies/labels/'
+# name_video = "1"
+folder_path = sys.argv[1]
+name_video = sys.argv[2]
 num_frames = 10000
 stop_list = []
 sorted_folder = []
