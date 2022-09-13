@@ -8,7 +8,7 @@ import csv
 # folder_path = 'D:/BIU/FinalProject/Anomalies/labels/'
 name_video = sys.argv[3]
 folder_path = sys.argv[1]
-name_video = sys.argv[2]
+video_path = sys.argv[2]
 num_frames = 10000
 stop_list = []
 sorted_folder = []
